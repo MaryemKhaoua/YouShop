@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    
+}
+.logo
+{
+    font-family: 'Allerta Stencil', sans-serif;
+    font-size: 50px;
+    text-decoration: none;
+}
+.first
+{
+    color: #A18A68;
+}
+.second
+{
+    color: #686AA1;
+}
+nav ul li{
+    display: inline-block;
+    padding: 10px;
+}
+ul li a{
+    color: #060606;
+    text-decoration: none;
+
+}
+.pic_header{
+    height: 500px;
+    display: block;
+    margin: auto;
+    
+}
+.product
+{
+    padding: 40px 0;
+    text-align: center;
+}
+.contact
+{
+    display: inline-block;
+    padding: 10px;
+}
