@@ -1,10 +1,13 @@
 *{
     margin: 0;
-    
+}
+.nav-bar{
+    align-items: center;
 }
 .menu
 {
-
+    display: flex;
+    justify-content: space-around;
 }
 .logo
 {
@@ -29,10 +32,51 @@ ul li a{
     text-decoration: none;
 
 }
+.header_h1
+{
+    font-family: 'Allerta Stencil', sans-serif;
+    font-family: 'DM Sans', sans-serif;
+    padding-top: 50px;
+	color: white;
+	font-size: 70px;
+	text-align:start;
+    position: absolute;
+    bottom: 350px;
+    left: 15px;
+}
+.header_h2
+{
+    font-family: 'Allerta Stencil', sans-serif;
+    font-family: 'DM Sans', sans-serif;
+    padding-top: 50px;
+	color: white;
+	font-size: 30px;
+	text-align:start;
+    position: absolute;
+    bottom: 300px;
+    left: 15px;
+}
+.header_h3
+{
+    font-family: 'Allerta Stencil', sans-serif;
+    font-family: 'DM Sans', sans-serif;
+    padding-top: 50px;
+	color: white;
+	font-size: 30px;
+	text-align:start;
+    position: absolute;
+    bottom: 230px;
+    left: 15px;
+    border-width:1px;
+    border-style:solid;
+    border-color:#ffffff;
+}
 .pic_header{
-    height: 500px;
-    display: block;
-    margin: auto;
+    width: 90%;
+    height: 80vh;
+    background-image: url("Headerr.png");
+    background-size: cover;
+    
     
 }
 .product
@@ -42,6 +86,11 @@ ul li a{
     display: grid;
     grid-template-rows: repeat(2, 1fr);
     grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 50px;
+}
+.price {
+    color: #A18A68;
+    font-size:large;
 }
 .about
 {
@@ -49,6 +98,7 @@ ul li a{
 }
 .contact
 {
-    display: inline-block;
-    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: flex-start;
 }
