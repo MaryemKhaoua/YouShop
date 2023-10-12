@@ -1,19 +1,26 @@
 *{
-    margin: 0;
+    margin-left: 20;
+}
+body{
+    margin:2em;
+}
+header{
+    margin-left: 5%;
+    margin-right: 5%;
 }
 .nav-bar{
     align-items: center;
-}
-.menu
-{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-self: center;
+    
 }
 .logo
 {
     font-family: 'Allerta Stencil', sans-serif;
     font-size: 50px;
     text-decoration: none;
+    margin-right: 3em;
 }
 .first
 {
@@ -32,17 +39,23 @@ ul li a{
     text-decoration: none;
 
 }
+.pic_header{
+    width: 90%;
+    height: 90vh;
+    background-image: url("Header.png");
+    background-size: cover;
+    border-radius: 15px;
+    padding-left: 9em;
+    background-repeat: no-repeat;
+}
 .header_h1
 {
     font-family: 'Allerta Stencil', sans-serif;
     font-family: 'DM Sans', sans-serif;
     padding-top: 50px;
 	color: white;
-	font-size: 70px;
+	font-size: 90px;
 	text-align:start;
-    position: absolute;
-    bottom: 350px;
-    left: 15px;
 }
 .header_h2
 {
@@ -52,7 +65,6 @@ ul li a{
 	color: white;
 	font-size: 30px;
 	text-align:start;
-    position: absolute;
     bottom: 300px;
     left: 15px;
 }
@@ -60,25 +72,20 @@ ul li a{
 {
     font-family: 'Allerta Stencil', sans-serif;
     font-family: 'DM Sans', sans-serif;
-    padding-top: 50px;
 	color: white;
 	font-size: 30px;
 	text-align:start;
-    position: absolute;
     bottom: 230px;
     left: 15px;
-    border-width:1px;
-    border-style:solid;
-    border-color:#ffffff;
 }
-.pic_header{
-    width: 90%;
-    height: 80vh;
-    background-image: url("Headerr.png");
-    background-size: cover;
-    
-    
+.header_h4
+{
+    font-size: 26px;
+    font-family: 'Allerta Stencil', sans-serif;
+    font-family: 'DM Sans', sans-serif;
+    margin-left: 2em;
 }
+
 .product
 {
     padding: 40px 0;
@@ -92,13 +99,78 @@ ul li a{
     color: #A18A68;
     font-size:large;
 }
+
 .about
 {
     text-align: center;
 }
-.contact
-{
+.custom-footer{
+    
+    padding: 20px;
     text-align: center;
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
+    
+}
+.footer
+{
+    display: flex;
+    justify-content: space-between;
+    gap: 2em;
+}
+
+.footer a {
+    color: #333;
+    text-decoration: none;
+}
+
+ a:hover {
+    color: #f5deae;
+}
+.form{
+    width: 50%;
+}
+/* for description */
+.custom-aside
+{
+    display: flex;
+    justify-content: space-between;
+}
+#custom-h1
+{
+    font-family: 'Allerta Stencil', sans-serif;
+    font-family: 'DM Sans', sans-serif;
+    color: #686AA1;
+    font-weight: bold;
+    border-style:none;
+    text-align: center;
+    font-size:30px;
+    background-color: #C4B6A0;
+
+}
+#custom-des
+{
+    font-family: 'Allerta Stencil', sans-serif;
+    font-family: 'DM Sans', sans-serif;
+    color: #686AA1;
+    font-weight:bolder;
+    font-size:30px;
+}
+aside {
+    width: 400px;
+    padding: 10px;
+    margin: 10px;
+}
+#Header-rec
+{
+    margin-left: 50px;
+    color: #686AA1;
+}
+.Recommendation {
+    padding: 40px 0;
+    text-align: center;
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 50px;
 }
