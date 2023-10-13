@@ -306,4 +306,9 @@ article p {
 {
     display: flex;
     flex-direction: column;
+    padding: 3px;
+}
+input {
+    border: px solid #222;
+    background: #fff;
 }
