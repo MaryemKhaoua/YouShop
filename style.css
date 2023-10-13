@@ -87,7 +87,12 @@ ul li a{
     font-size: 26px;
     font-family: 'Allerta Stencil', sans-serif;
     font-family: 'DM Sans', sans-serif;
-    margin-left: 2em;
+    /* margin-left: 2em; */
+}
+.Header_h5
+{
+    font-size: 30px;
+    font-family: 'DM Sans', sans-serif;
 }
 h3 button{
     padding: 12px;
@@ -286,4 +291,19 @@ article p {
     font-family: 'Allerta Stencil', sans-serif;
     font-family: 'DM Sans', sans-serif;
     font-family: 'Open Sans', sans-serif;
+}
+/* for panier */
+#btn-quantity {
+    background-color: #A18A68;
+    border: none;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5%;
+}
+#label
+{
+    display: flex;
+    flex-direction: column;
 }
